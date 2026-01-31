@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
-import Picture1 from "../assets/1.jpg";
-import Picture2 from "../assets/2.jpg";
-import Picture3 from "../assets/3.jpg";
+import Picture1 from "../TextParallax/1.jpg";
+import Picture2 from "../TextParallax/2.jpg";
+import Picture3 from "../TextParallax/3.jpg";
 import Lenis from "lenis";
 
 const TextParallax = () => {
