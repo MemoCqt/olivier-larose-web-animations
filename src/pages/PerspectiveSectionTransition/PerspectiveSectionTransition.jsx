@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Lenis from "lenis";
-import Pic1 from "../assets/5.jpg";
-import Pic2 from "../assets/6.jpeg";
+import Pic1 from "../PerspectiveSectionTransition/1.jpg";
+import Pic2 from "../PerspectiveSectionTransition/2.jpeg";
 
 const PerspectiveSectionTransition = () => {
   const container = useRef();

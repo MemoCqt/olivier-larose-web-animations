@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "../App.jsx";
 import Home from "../pages/Home.jsx";
 import TextParallax from "../pages/TextParallax/TextParallax.jsx";
-import PerspectiveSectionTransition from "../pages/PerspectiveSectionTransition.jsx";
+import PerspectiveSectionTransition from "../pages/PerspectiveSectionTransition/PerspectiveSectionTransition.jsx";
 import TextAlongPath from "../pages/TextAlongPath/TextAlongPath.jsx";
 import NotFound from "../pages/NotFound.jsx";
 
