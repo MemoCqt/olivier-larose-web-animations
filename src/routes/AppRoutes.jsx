@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "../App.jsx";
 import Home from "../pages/Home.jsx";
 import TextParallax from "../pages/TextParallax.jsx";
+import PerspectiveSectionTransition from "../pages/PerspectiveSectionTransition.jsx";
 import NotFound from "../pages/NotFound.jsx";
 
 const routingTable = createBrowserRouter([
@@ -11,7 +12,8 @@ const routingTable = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
         { path: "", element: <Home /> },
-        { path: "/text-parallax", element: <TextParallax /> }
+        { path: "/text-parallax", element: <TextParallax /> },
+        { path: "/perspective-section-transition", element: <PerspectiveSectionTransition /> }
     ]
   }
 ]);
