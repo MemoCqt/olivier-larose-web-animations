@@ -3,6 +3,7 @@ import App from "../App.jsx";
 import Home from "../pages/Home.jsx";
 import TextParallax from "../pages/TextParallax.jsx";
 import PerspectiveSectionTransition from "../pages/PerspectiveSectionTransition.jsx";
+import TextAlongPath from "../pages/TextAlongPath/TextAlongPath.jsx";
 import NotFound from "../pages/NotFound.jsx";
 
 const routingTable = createBrowserRouter([
@@ -13,7 +14,8 @@ const routingTable = createBrowserRouter([
     children: [
         { path: "", element: <Home /> },
         { path: "/text-parallax", element: <TextParallax /> },
-        { path: "/perspective-section-transition", element: <PerspectiveSectionTransition /> }
+        { path: "/perspective-section-transition", element: <PerspectiveSectionTransition /> },
+        { path: "/text-along-path", element: <TextAlongPath /> }
     ]
   }
 ]);
