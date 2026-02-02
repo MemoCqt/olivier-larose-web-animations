@@ -6,6 +6,7 @@ import PerspectiveSectionTransition from "../pages/PerspectiveSectionTransition/
 import TextAlongPath from "../pages/TextAlongPath/TextAlongPath.jsx";
 import BackgroundImageParallax from "../pages/BackgroundImageParallax/BackgroundImageParallax.jsx";
 import StickyFooter from "../pages/StickyFooter/StickyFooter.jsx";
+import ZoomParallax from "../pages/ZoomParallax/ZoomParallax.jsx";
 import NotFound from "../pages/NotFound.jsx";
 
 const routingTable = createBrowserRouter([
@@ -19,7 +20,8 @@ const routingTable = createBrowserRouter([
         { path: "/perspective-section-transition", element: <PerspectiveSectionTransition /> },
         { path: "/text-along-path", element: <TextAlongPath /> },
         { path: "/background-image-parallax", element: <BackgroundImageParallax /> },
-        { path: "/sticky-footer", element: <StickyFooter /> }
+        { path: "/sticky-footer", element: <StickyFooter /> },
+        { path: "/zoom-parallax", element: <ZoomParallax /> }
     ]
   }
 ]);
