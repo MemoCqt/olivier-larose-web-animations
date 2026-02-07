@@ -9,6 +9,7 @@ import StickyFooter from "../pages/StickyFooter/StickyFooter.jsx";
 import ZoomParallax from "../pages/ZoomParallax/ZoomParallax.jsx";
 import ParallaxScroll from "../pages/ParallaxScroll/ParallaxScroll.jsx";
 import TextOpacityScroll from "../pages/TextOpacityScroll/TextOpacityScroll.jsx";
+import CardsParallax from "../pages/CardsParallax/CardsParallax.jsx";
 import NotFound from "../pages/NotFound.jsx";
 
 const routingTable = createBrowserRouter([
@@ -26,6 +27,7 @@ const routingTable = createBrowserRouter([
         { path: "/zoom-parallax", element: <ZoomParallax /> },
         { path: "/parallax-scroll", element: <ParallaxScroll /> },
         { path: "/text-opacity-scroll", element: <TextOpacityScroll /> },
+        { path: "/cards-parallax", element: <CardsParallax /> },
     ]
   }
 ]);
