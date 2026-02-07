@@ -8,6 +8,7 @@ import BackgroundImageParallax from "../pages/BackgroundImageParallax/Background
 import StickyFooter from "../pages/StickyFooter/StickyFooter.jsx";
 import ZoomParallax from "../pages/ZoomParallax/ZoomParallax.jsx";
 import ParallaxScroll from "../pages/ParallaxScroll/ParallaxScroll.jsx";
+import TextOpacityScroll from "../pages/TextOpacityScroll/TextOpacityScroll.jsx";
 import NotFound from "../pages/NotFound.jsx";
 
 const routingTable = createBrowserRouter([
@@ -23,7 +24,8 @@ const routingTable = createBrowserRouter([
         { path: "/background-image-parallax", element: <BackgroundImageParallax /> },
         { path: "/sticky-footer", element: <StickyFooter /> },
         { path: "/zoom-parallax", element: <ZoomParallax /> },
-        { path: "/parallax-scroll", element: <ParallaxScroll /> }
+        { path: "/parallax-scroll", element: <ParallaxScroll /> },
+        { path: "/text-opacity-scroll", element: <TextOpacityScroll /> },
     ]
   }
 ]);
